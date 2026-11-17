@@ -1,0 +1,6 @@
+{
+  "name": "WAppShot — Official WhatsApp Business API Platform",
+  "description": "Official WhatsApp Business API platform for seamless message tracking, multi-agent team collaboration, and automated lead management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

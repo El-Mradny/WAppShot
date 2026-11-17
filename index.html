@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WAppShot – Official WhatsApp Business API &amp; Lead Tracking</title>
+    <meta
+      name="description"
+      content="Track every WhatsApp message, automate lead qualification, and sync your CRM with WAppShot on the Official WhatsApp Business API. Chat with us today."
+    />
+    <meta
+      name="keywords"
+      content="WAppShot, Official WhatsApp Business API, WhatsApp message tracking, automated lead management, Meta Cloud API, WhatsApp CRM integration, multi-agent WhatsApp inbox, WhatsApp Business App vs API"
+    />
+    <meta name="author" content="WAppShot by Vibe Hub" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="theme-color" content="#047857" />
+
+    <link rel="icon" type="image/png" href="/assets/aistudio/WAppShot_fb0f63b4.png" />
+    <link rel="apple-touch-icon" href="/assets/aistudio/WAppShot_fb0f63b4.png" />
+
+    <!-- OpenGraph / Facebook / LinkedIn / WhatsApp Preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="WAppShot" />
+    <meta property="og:locale" content="en_US" />
+    <meta
+      property="og:title"
+      content="WAppShot – Official WhatsApp Business API &amp; Lead Tracking"
+    />
+    <meta
+      property="og:description"
+      content="Track every WhatsApp message, automate lead qualification, and sync your CRM with WAppShot on the Official WhatsApp Business API. Chat with us today."
+    />
+    <meta
+      property="og:image"
+      content="/src/assets/images/hero_wappshot_workspace_1794895326381.jpg"
+    />
+    <meta
+      property="og:image:alt"
+      content="WAppShot Official WhatsApp Business API workspace showing message tracking analytics and conversation pipelines"
+    />
+
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="WAppShot – Official WhatsApp Business API &amp; Lead Tracking"
+    />
+    <meta
+      name="twitter:description"
+      content="Track every WhatsApp message, automate lead qualification, and sync your CRM with WAppShot on the Official WhatsApp Business API. Chat with us today."
+    />
+    <meta
+      name="twitter:image"
+      content="/src/assets/images/hero_wappshot_workspace_1794895326381.jpg"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="WAppShot Official WhatsApp Business API workspace showing message tracking analytics and conversation pipelines"
+    />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script id="wappshot-jsonld" type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "name": "WAppShot",
+            "brand": {
+              "@type": "Brand",
+              "name": "Vibe Hub"
+            },
+            "description": "Official WhatsApp Business API platform by Vibe Hub for real-time message tracking, multi-agent team collaboration, and automated lead management."
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "WAppShot",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web, Cloud",
+            "description": "Track every WhatsApp message, automate lead qualification, and sync your CRM with WAppShot on the Official WhatsApp Business API.",
+            "featureList": [
+              "End-to-end WhatsApp message delivery and read tracking",
+              "Automated lead capture and qualification workflows",
+              "Unlimited multi-agent shared team inbox",
+              "Bi-directional CRM and REST webhook synchronization",
+              "Click-to-WhatsApp ad attribution",
+              "Official Meta Cloud API hosting and Green Tick eligibility"
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('wappshot_theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = saved === 'dark' || saved === 'light' ? saved : prefersDark ? 'dark' : 'light';
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+            document.documentElement.style.colorScheme = 'dark';
+          } else {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.style.colorScheme = 'light';
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#F8FAFC] text-[#0F172A] dark:bg-slate-950 dark:text-slate-100 antialiased selection:bg-[#047857] selection:text-white transition-colors duration-150">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
